@@ -1,0 +1,29 @@
+
+.footer {
+
+    position: relative;
+
+
+
+
+}
+
+.footer > div {
+    height: 100px;
+    background-color: rgba(84, 84, 84, 0.74);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.para {
+    color: white;
+}
+
+
+.nav-link {
+    padding: 1rem 1.8rem;
+    transition: all 0.4s ease-out;
+}
+.nav-link:hover {
+    background-color: rgb(232, 232, 232);
+}

@@ -1,0 +1,20 @@
+.container {
+    position: fixed;
+    top: 0.8rem;
+    left: 0.8rem;
+    width: calc(100% - 1.6rem);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.nav-link {
+    font-size: 24px;
+    font-family: monospace;
+    padding: 1rem 1.8rem;
+    transition: all 0.4s ease-out;
+    text-decoration: none;
+    color: #000000;
+}
+.nav-link:hover {
+   color: #949494;
+}
